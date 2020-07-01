@@ -1,0 +1,37 @@
+    * {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    .contenedor {
+        width: 80%;
+        height: 500px;
+        background: #ff5c29;
+        margin: 50px auto;
+        display: flex;
+        /*para añadir flexbox*/
+        Flex-direction: row;
+        /*row-reverse | column | column-reverse*/
+        flex-wrap: wrap;
+        /*no-wrap */
+        justify-content: flex-start;
+        /*flex-end | center | space-between | space-around */
+        Align-items: flex-start;
+        /* flex-end | center | stretch | baseline*/
+        align-content: flex-start;
+        /*  flex-end | center | stretch | space-between | space-around;*/
+    }
+    
+    .hijo {
+        background: #00b285;
+        width: 200px;
+        height: 100px;
+        color: #fff;
+        margin: 30px;
+        padding: 20px;
+        font-size: 40px;
+        text-align: center;
+    }
